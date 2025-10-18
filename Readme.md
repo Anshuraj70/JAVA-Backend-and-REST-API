@@ -561,33 +561,33 @@ All errors return consistent JSON responses:
 
 ✅ **Functional Tests:**
 - Create task (POST)
-![Alt Image for POST request on creating a new task.]("screenshot/1stDataInsertion.png" )
+![Alt Image for POST request on creating a new task.](screenshot/1stDataInsertion.png)
 - Get all tasks (GET)
-![Alt Listing all of the task pagewise.]("./screenshot/4thGETAllData.png" )
+![Alt Listing all of the task pagewise.](screenshot/4thGETAllData.png)
 - Get task by ID (GET)
-![Alt Image for showing all of the tasks based on ID.]("./screenshot/2ndGETDataByID.png")
+![Alt Image for showing all of the tasks based on ID.](screenshot/2ndGETDataByID.png)
 - Search tasks by name (GET)
-![Alt Image for showing tasks with similar name.]("./screenshot/5thGETByName.png")
+![Alt Image for showing tasks with similar name.](screenshot/5thGETByName.png)
 - Execute task command (PUT)
-![Alt Image for showing the execution of a command.]("./screenshot/3rdPUTForExecutingACommand.png")
+![Alt Image for showing the execution of a command.](screenshot/3rdPUTForExecutingACommand.png)
 - Add manual execution (PATCH)
-![Alt Image for showing on manually adding an task execution.]("./screenshot/6thPATCHAddNewTaskExecution.png")
+![Alt Image for showing on manually adding an task execution.](screenshot/6thPATCHAddNewTaskExecution.png)
 - Delete task (DELETE)
-![Alt Image showing the response on deleting a task.]("./screenshot/7thDELETEExecution.png")
+![Alt Image showing the response on deleting a task.](screenshot/7thDELETEExecution.png)
 
 ✅ **Validation Tests:**
 - Empty task name (400)
-![Alt Image showing a valid response for creating a task without any name.]("./screenshot/8thValidResponseForNoName.png")
+![Alt Image showing a valid response for creating a task without any name.](screenshot/8thValidResponseForNoName.png)
 - Dangerous commands (400)
-![Alt Image for showing a valid response for trying to execute a dangerous command.]("./screenshot/9thValidResponseForInvalidCommand.png")
+![Alt Image for showing a valid response for trying to execute a dangerous command.](screenshot/9thValidResponseForInvalidCommand.png)
 - Command injection attempts (400)
-![Alt Image for showing a valid response on executing a command which consist of an invalid command.]("./screenshot/10thValidResponseForInjestedInvalidCommand.png")
+![Alt Image for showing a valid response on executing a command which consist of an invalid command.](screenshot/10thValidResponseForInjestedInvalidCommand.png)
 - Invalid date range (400)
-![Alt Image showing the response when an invalid date range is given.]("./screenshot/12thValidResponseForWrongDates.png")
+![Alt Image showing the response when an invalid date range is given.](screenshot/12thValidResponseForWrongDates.png)
 
 ✅ **Error Handling Tests:**
 - Non-existent task (404)
-![alt Image showing response on task ID which are non-existent.]("./screenshot/11thValidResponseOnGETForNon-ExistentID.png")
+![alt Image showing response on task ID which are non-existent.](screenshot/11thValidResponseOnGETForNon-ExistentID.png)
 
 ### Testing with Postman
 
