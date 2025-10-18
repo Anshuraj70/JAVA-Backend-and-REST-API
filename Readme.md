@@ -561,7 +561,7 @@ All errors return consistent JSON responses:
 
 ✅ **Functional Tests:**
 - Create task (POST)
-![Alt Image for POST request on creating a new task.]("./screenshot/1stDataInsertion.png" )
+![Alt Image for POST request on creating a new task.]("screenshot/1stDataInsertion.png" )
 - Get all tasks (GET)
 ![Alt Listing all of the task pagewise.]("./screenshot/4thGETAllData.png" )
 - Get task by ID (GET)
